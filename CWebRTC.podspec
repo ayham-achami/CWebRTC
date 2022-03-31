@@ -9,7 +9,7 @@ Pod::Spec.new do |spec|
   DESC
 
   spec.homepage     = "https://github.com/ayham-achami/CWebRTC"
-  spec.license      = { :type => 'BSD', :file => 'WebRTC.xcframework/LICENSE' }
+  spec.license      = { :type => 'BSD', :file => 'WebRTC.xcframework/LICENSE.md' }
   spec.author       = "Aleksandr Myaots"
   spec.ios.deployment_target = '12.0'
 
