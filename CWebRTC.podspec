@@ -1,7 +1,7 @@
 Pod::Spec.new do |spec|
 
   spec.name         = "CWebRTC"
-  spec.version      = "103"
+  spec.version      = "104"
   spec.summary      = "Community distribution of WebRTC framework binaries for iOS. "
   spec.description  = <<-DESC
   This pod contains community distribution of WebRTC framework binaries for iOS.
@@ -13,7 +13,7 @@ Pod::Spec.new do |spec|
   spec.author       = { "Ayham Hylam" => "Ayham Hylam" }
   spec.ios.deployment_target = '12.0'
 
-  spec.source       = { :http => "https://github.com/ayham-achami/CWebRTC/releases/download/103/WebRTC-M103.xcframework.zip" }
+  spec.source       = { :http => "https://github.com/ayham-achami/CWebRTC/releases/download/104/WebRTC-M104.xcframework.zip" }
   spec.vendored_frameworks = "WebRTC.xcframework"
   
 end
