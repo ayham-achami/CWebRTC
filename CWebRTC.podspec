@@ -1,8 +1,8 @@
 Pod::Spec.new do |spec|
 
   spec.name         = "CWebRTC"
-  spec.version      = "104"
-  spec.summary      = "Community distribution of WebRTC framework binaries for iOS. "
+  spec.version      = "105"
+  spec.summary      = "Community distribution of WebRTC framework binaries for iOS."
   spec.description  = <<-DESC
   This pod contains community distribution of WebRTC framework binaries for iOS.
   All binaries in this repository are compiled from the official WebRTC source code without any modifications to the sources code or to the output binaries.
@@ -13,7 +13,7 @@ Pod::Spec.new do |spec|
   spec.author       = { "Ayham Hylam" => "Ayham Hylam" }
   spec.ios.deployment_target = '12.0'
 
-  spec.source       = { :http => "https://github.com/ayham-achami/CWebRTC/releases/download/104/WebRTC-M104.xcframework.zip" }
+  spec.source       = { :http => "https://github.com/ayham-achami/CWebRTC/releases/download/105/WebRTC-M105.xcframework.zip" }
   spec.vendored_frameworks = "WebRTC.xcframework"
   
 end
