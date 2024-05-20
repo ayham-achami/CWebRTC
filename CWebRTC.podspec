@@ -12,6 +12,6 @@ Pod::Spec.new do |spec|
   spec.author       = { 'Ayham Hylam' => 'Ayham Hylam' }
   spec.ios.deployment_target = '12.0'
 
-  spec.source = { http: 'https://github.com/ayham-achami/CWebRTC/releases/download/120/WebRTC-M120.xcframework.zip' }
+  spec.source = { http: 'https://github.com/ayham-achami/CWebRTC/releases/download/120_hf/WebRTC-M120.xcframework.zip' }
   spec.vendored_frameworks = 'WebRTC.xcframework'
 end
