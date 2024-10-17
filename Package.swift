@@ -3,6 +3,9 @@
 
 import PackageDescription
 
+let version = "129.0.0"
+let checksum = "0766bc0a20ceb2f585a268551ed812cdf9c8ad8f8bfa12a886fddbb72db316d3"
+
 let package = Package(
     name: "CWebRTC",
     platforms: [.iOS(.v12), .macCatalyst(.v13)],
@@ -13,7 +16,7 @@ let package = Package(
     ],
     targets: [
         .binaryTarget(name: "WebRTC",
-                      url: "https://github.com/ayham-achami/CWebRTC/releases/download/124.0.1/WebRTC-M124-0-1.xcframework.zip?v=1",
-                      checksum: "7d559a5e058a71f2f9e9330cb8a208a065a6af3060054600beebe31f0d94f720")
+                      url: "https://github.com/ayham-achami/CWebRTC/releases/download/\(version)/WebRTC.xcframework.zip",
+                      checksum: checksum)
     ]
 )
