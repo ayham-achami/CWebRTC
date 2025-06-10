@@ -3,8 +3,8 @@
 
 import PackageDescription
 
-let version = "133.0.2"
-let checksum = "dec6e9ddfa724fd71d50b863968985eeba0a0a18f50622c42e3a7168cd71f7bf"
+let version = "133.0.3"
+let checksum = "3e8708f185d55ddb519ea20f0d3ade72a54c0045c3fca7cb2b058246834f2ee2"
 
 let package = Package(
     name: "CWebRTC",
@@ -16,7 +16,7 @@ let package = Package(
     ],
     targets: [
         .binaryTarget(name: "WebRTC",
-                      url: "https://github.com/ayham-achami/CWebRTC/releases/download/\(version)/WebRTC.xcframework.zip",
+                      url: "https://github.com/ayham-achami/CWebRTC/releases/download/\(version)/WebRTC.xcframework.zip?v=1",
                       checksum: checksum)
     ]
 )
