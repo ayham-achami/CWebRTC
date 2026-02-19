@@ -3,8 +3,8 @@
 
 import PackageDescription
 
-let version = "138.0.5"
-let checksum = "0d5099f4c74a2d1128637d5b4757ad8961295289a629ef7284ff0960969a65ee"
+let version = "138.0.6"
+let checksum = "cf87d27fdc46cbff3e3bac754c3b9f005402f15f42d67e172f508e73a23f40d2"
 
 let package = Package(
     name: "CWebRTC",
