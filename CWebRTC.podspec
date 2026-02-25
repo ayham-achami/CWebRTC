@@ -1,6 +1,6 @@
 Pod::Spec.new do |spec|
 
-  version = '138.0.7'
+  version = '138.0.8'
 
   spec.name         = 'CWebRTC'
   spec.version      = version
